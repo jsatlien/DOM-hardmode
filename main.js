@@ -81,17 +81,31 @@ var zeroButton = document.getElementById('0')
 var decimalButton = document.getElementById('.')
   var decimalClick = function (event) {
     calcdisplay.value = calcdisplay.value + "."
-}
-var equalsButton = document.getElementById('=')
-  var equalsClick = function (event) {
-  calcdisplay.value = calcdisplay.value + "="
-}
-var addButton = document.getElementById('+')
-var addClick = function (event) {
-  calcdisplay.value = calcdisplay.value + "+"
-}
+};
+var addButton = document.getElementById('+');
+  var addClick = function (event) {
+    calcdisplay.value = calcdisplay.value + "+";
+};
 
-zeroButton.addEventListener ("click", zeroClick)
-decimalButton.addEventListener ("click", decimalClick)
-equalsButton.addEventListener ("click", equalsClick)
-addButton.addEventListener ("click", addClick)
+var equalsButton = document.getElementById('=');
+  var equalsClick = function (event) {
+  calcdisplay.value = calcdisplay.value + "=";
+};
+
+// ^^needs to involve letsCalculate function!!
+// or letsCalculate should just exist inside this function^^
+
+
+zeroButton.addEventListener ("click", zeroClick);
+decimalButton.addEventListener ("click", decimalClick);
+equalsButton.addEventListener ("click", equalsClick);
+addButton.addEventListener ("click", addClick);
+
+// var letsCalculate = function (displayBox) {
+//     if (displayBox.include("/")) {
+//         displayBox.split("/");
+//         array = [ ]
+//     }
+// }
+
+// doesnt work yet^^^^^^^^^^^^^^^^
