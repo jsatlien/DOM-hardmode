@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.calcbody {
+  height: auto;
+  width: auto;
+}
+
+.calcbutton {
+  height: 80px;
+  width: 80px;
+  margin: 0px;
+  color: white;
+  background-color: #64B255;
+}
+
+#calcdisplay {
+  height: 80px;
+  width: 252px;
+  margin: 0px;
+  margin-bottom: 3px;
+}
+
+.operator {
+  background-color: #83C178;
+}
