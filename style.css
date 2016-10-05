@@ -16,15 +16,28 @@
   margin: 0px;
   color: white;
   background-color: #64B255;
+  margin-right: -6px;
 }
 
 #calcdisplay {
   height: 80px;
-  width: 252px;
+  width: 239px;
   margin: 0px;
   margin-bottom: 3px;
+  border-top: 2px solid #6C6C6C;
+  border-right: 2px solid #6C6C6C;
+  text-align: center;
 }
 
 .operator {
   background-color: #83C178;
+}
+
+.rowC {
+  margin-bottom: -4px;
+}
+
+#calcdisplay, textarea {
+  background: #68B25B;
+  color: white;
 }

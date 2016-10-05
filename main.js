@@ -98,13 +98,14 @@ var equalsButton = document.getElementById('=');
 
 zeroButton.addEventListener ("click", zeroClick);
 decimalButton.addEventListener ("click", decimalClick);
-equalsButton.addEventListener ("click", equalsClick);
 addButton.addEventListener ("click", addClick);
+equalsButton.addEventListener ( "click", equalsClick);
 
 // var letsCalculate = function (displayBox) {
 //     if (displayBox.include("/")) {
-//         displayBox.split("/");
-//         array = [ ]
+//       var divArray =  [displayBox.split("/")];
+//       calcdisplay.value = Number(divArray [0]) / Number(divArray [1]);
+//
 //     }
 // }
 
